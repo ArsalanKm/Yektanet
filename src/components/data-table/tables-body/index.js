@@ -40,7 +40,7 @@ const TablesBody = ({ data, addFavHandler, favorits }) => {
         }}
         height={900}
         width={800}
-        itemSize={isMobile ? 500 : 70}
+        itemSize={isMobile ? 550 : 70}
         itemCount={data.length}
       >
         {renderRow}
