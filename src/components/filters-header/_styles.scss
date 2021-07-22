@@ -1,0 +1,18 @@
+.filters-header{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5px;
+    &input{
+        border: 1px solid #ccc;
+        width: 100px;
+    }
+}
+
+  @media screen and (max-width: 780px) {
+   .filters-header{
+       display:flex;
+       flex-direction: column;
+       position: sticky;
+   } 
+  }
+
